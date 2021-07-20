@@ -1,0 +1,9 @@
+[kubernetes_master_nodes]
+instance-master-01 ansible_host=140.238.237.185 ansible_host_int=10.0.0.100
+
+ansible_ssh_user=ubuntu
+
+[kubernetes_worker_nodes]
+instance-node1 ansible_host=132.226.243.121 ansible_host_int=10.0.0.101
+
+ansible_ssh_user=ubuntu
